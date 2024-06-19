@@ -251,9 +251,9 @@ img {
 }
 
 /* Change background header */
-
-
-/* Change background header */
+.bg-header{
+    box-shadow: 0 2px 8px hsla(19, 64%, 24%, .1)
+}
 
 
 /* Active link */
@@ -347,8 +347,49 @@ img {
     transform: translateX(.25rem);
 }
 
-/*=============== ABOUT ===============*/
 
+
+/*=============== ABOUT ===============*/
+.about {
+    position: relative;
+}
+
+.about__container {
+    row-gap: 3rem;
+}
+
+.about__data {
+    text-align: center;
+}
+
+.about__title img {
+    width: 30px;
+}
+
+.about__title div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.about__img {
+    width: 300px;
+    justify-self: center;
+}
+
+.about__leaf {
+    width: 100px;
+    opacity: .2;
+    position: absolute;
+    bottom: 11rem;
+    right: -1.5rem;
+    transform: rotate(-15deg);
+}
+
+.about__description {
+    margin-bottom: 2rem;
+}
 
 /*=============== POPULAR ===============*/
 
