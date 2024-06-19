@@ -320,6 +320,7 @@ img {
     transform: rotate(-15deg);
 }
 
+/*=============== BUTTON ===============*/
 .button {
     display: inline-flex;
     align-items: center;
@@ -328,10 +329,23 @@ img {
     padding: 1rem 1.5rem;
     border-radius: 4rem;
     color: #fff;
+    font-weight: var(--font-medium);
+    transition: background .3s;
 }
 
-/*=============== BUTTON ===============*/
+.button i {
+    font-size: 1.5rem;
+    transition: transform .3s;
+}
 
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button:hover i {
+    transform: translateX(.25rem);
+}
 
 /*=============== ABOUT ===============*/
 
